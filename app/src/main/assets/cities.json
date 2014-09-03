@@ -1,0 +1,2421 @@
+{
+  "result": "0",
+  "msg": "请求成功",
+  "pageList": [
+    {
+      "id": 100,
+      "parentId": 0,
+      "name": "安徽省",
+      "childCity": [
+        {
+          "id": 101,
+          "parentId": 100,
+          "name": "安庆市",
+          "childCity": []
+        },
+        {
+          "id": 102,
+          "parentId": 100,
+          "name": "蚌埠市",
+          "childCity": []
+        },
+        {
+          "id": 103,
+          "parentId": 100,
+          "name": "亳州市",
+          "childCity": []
+        },
+        {
+          "id": 104,
+          "parentId": 100,
+          "name": "巢湖市",
+          "childCity": []
+        },
+        {
+          "id": 105,
+          "parentId": 100,
+          "name": "池州市",
+          "childCity": []
+        },
+        {
+          "id": 106,
+          "parentId": 100,
+          "name": "滁州市",
+          "childCity": []
+        },
+        {
+          "id": 107,
+          "parentId": 100,
+          "name": "阜阳市",
+          "childCity": []
+        },
+        {
+          "id": 108,
+          "parentId": 100,
+          "name": "合肥市",
+          "childCity": []
+        },
+        {
+          "id": 109,
+          "parentId": 100,
+          "name": "淮北市",
+          "childCity": []
+        },
+        {
+          "id": 110,
+          "parentId": 100,
+          "name": "淮南市",
+          "childCity": []
+        },
+        {
+          "id": 111,
+          "parentId": 100,
+          "name": "黄山市",
+          "childCity": []
+        },
+        {
+          "id": 112,
+          "parentId": 100,
+          "name": "六安市",
+          "childCity": []
+        },
+        {
+          "id": 113,
+          "parentId": 100,
+          "name": "马鞍山市",
+          "childCity": []
+        },
+        {
+          "id": 114,
+          "parentId": 100,
+          "name": "宿州市",
+          "childCity": []
+        },
+        {
+          "id": 115,
+          "parentId": 100,
+          "name": "铜陵市",
+          "childCity": []
+        },
+        {
+          "id": 116,
+          "parentId": 100,
+          "name": "芜湖市",
+          "childCity": []
+        },
+        {
+          "id": 117,
+          "parentId": 100,
+          "name": "宣城市",
+          "childCity": []
+        },
+        {
+          "id": 118,
+          "parentId": 100,
+          "name": "其他地区",
+          "childCity": []
+        }
+      ]
+    },
+    {
+      "id": 200,
+      "parentId": 0,
+      "name": "北京市",
+      "childCity": []
+    },
+    {
+      "id": 300,
+      "parentId": 0,
+      "name": "福建省",
+      "childCity": [
+        {
+          "id": 301,
+          "parentId": 300,
+          "name": "福州市",
+          "childCity": []
+        },
+        {
+          "id": 302,
+          "parentId": 300,
+          "name": "龙岩市",
+          "childCity": []
+        },
+        {
+          "id": 303,
+          "parentId": 300,
+          "name": "南平市",
+          "childCity": []
+        },
+        {
+          "id": 304,
+          "parentId": 300,
+          "name": "宁德市",
+          "childCity": []
+        },
+        {
+          "id": 305,
+          "parentId": 300,
+          "name": "莆田市",
+          "childCity": []
+        },
+        {
+          "id": 306,
+          "parentId": 300,
+          "name": "泉州市",
+          "childCity": []
+        },
+        {
+          "id": 307,
+          "parentId": 300,
+          "name": "三明市",
+          "childCity": []
+        },
+        {
+          "id": 308,
+          "parentId": 300,
+          "name": "厦门市",
+          "childCity": []
+        },
+        {
+          "id": 309,
+          "parentId": 300,
+          "name": "漳州市",
+          "childCity": []
+        },
+        {
+          "id": 310,
+          "parentId": 300,
+          "name": "其他地区",
+          "childCity": []
+        }
+      ]
+    },
+    {
+      "id": 400,
+      "parentId": 0,
+      "name": "甘肃省",
+      "childCity": [
+        {
+          "id": 401,
+          "parentId": 400,
+          "name": "白银市",
+          "childCity": []
+        },
+        {
+          "id": 402,
+          "parentId": 400,
+          "name": "定西市",
+          "childCity": []
+        },
+        {
+          "id": 403,
+          "parentId": 400,
+          "name": "甘南市",
+          "childCity": []
+        },
+        {
+          "id": 404,
+          "parentId": 400,
+          "name": "嘉峪关市",
+          "childCity": []
+        },
+        {
+          "id": 405,
+          "parentId": 400,
+          "name": "金昌市",
+          "childCity": []
+        },
+        {
+          "id": 406,
+          "parentId": 400,
+          "name": "酒泉市",
+          "childCity": []
+        },
+        {
+          "id": 407,
+          "parentId": 400,
+          "name": "兰州市",
+          "childCity": []
+        },
+        {
+          "id": 408,
+          "parentId": 400,
+          "name": "临夏市",
+          "childCity": []
+        },
+        {
+          "id": 409,
+          "parentId": 400,
+          "name": "陇南市",
+          "childCity": []
+        },
+        {
+          "id": 410,
+          "parentId": 400,
+          "name": "平凉市",
+          "childCity": []
+        },
+        {
+          "id": 411,
+          "parentId": 400,
+          "name": "庆阳市",
+          "childCity": []
+        },
+        {
+          "id": 412,
+          "parentId": 400,
+          "name": "天水市",
+          "childCity": []
+        },
+        {
+          "id": 413,
+          "parentId": 400,
+          "name": "武威市",
+          "childCity": []
+        },
+        {
+          "id": 414,
+          "parentId": 400,
+          "name": "张掖市",
+          "childCity": []
+        },
+        {
+          "id": 415,
+          "parentId": 400,
+          "name": "其他地区",
+          "childCity": []
+        }
+      ]
+    },
+    {
+      "id": 500,
+      "parentId": 0,
+      "name": "广东省",
+      "childCity": [
+        {
+          "id": 501,
+          "parentId": 500,
+          "name": "潮州市",
+          "childCity": []
+        },
+        {
+          "id": 502,
+          "parentId": 500,
+          "name": "东莞市",
+          "childCity": []
+        },
+        {
+          "id": 503,
+          "parentId": 500,
+          "name": "佛山市",
+          "childCity": []
+        },
+        {
+          "id": 504,
+          "parentId": 500,
+          "name": "广州市",
+          "childCity": []
+        },
+        {
+          "id": 505,
+          "parentId": 500,
+          "name": "河源市",
+          "childCity": []
+        },
+        {
+          "id": 506,
+          "parentId": 500,
+          "name": "惠州市",
+          "childCity": []
+        },
+        {
+          "id": 507,
+          "parentId": 500,
+          "name": "江门市",
+          "childCity": []
+        },
+        {
+          "id": 508,
+          "parentId": 500,
+          "name": "揭阳市",
+          "childCity": []
+        },
+        {
+          "id": 509,
+          "parentId": 500,
+          "name": "茂名市",
+          "childCity": []
+        },
+        {
+          "id": 510,
+          "parentId": 500,
+          "name": "梅州市",
+          "childCity": []
+        },
+        {
+          "id": 511,
+          "parentId": 500,
+          "name": "清远市",
+          "childCity": []
+        },
+        {
+          "id": 512,
+          "parentId": 500,
+          "name": "汕头市",
+          "childCity": []
+        },
+        {
+          "id": 513,
+          "parentId": 500,
+          "name": "汕尾市",
+          "childCity": []
+        },
+        {
+          "id": 514,
+          "parentId": 500,
+          "name": "韶关市",
+          "childCity": []
+        },
+        {
+          "id": 515,
+          "parentId": 500,
+          "name": "深圳市",
+          "childCity": []
+        },
+        {
+          "id": 516,
+          "parentId": 500,
+          "name": "阳江市",
+          "childCity": []
+        },
+        {
+          "id": 517,
+          "parentId": 500,
+          "name": "云浮市",
+          "childCity": []
+        },
+        {
+          "id": 518,
+          "parentId": 500,
+          "name": "湛江市",
+          "childCity": []
+        },
+        {
+          "id": 519,
+          "parentId": 500,
+          "name": "肇庆市",
+          "childCity": []
+        },
+        {
+          "id": 520,
+          "parentId": 500,
+          "name": "中山市",
+          "childCity": []
+        },
+        {
+          "id": 521,
+          "parentId": 500,
+          "name": "珠海市",
+          "childCity": []
+        },
+        {
+          "id": 521,
+          "parentId": 500,
+          "name": "其他地区",
+          "childCity": []
+        }
+      ]
+    },
+    {
+      "id": 600,
+      "parentId": 0,
+      "name": "广西省",
+      "childCity": [
+        {
+          "id": 601,
+          "parentId": 600,
+          "name": "百色市",
+          "childCity": []
+        },
+        {
+          "id": 602,
+          "parentId": 600,
+          "name": "北海市",
+          "childCity": []
+        },
+        {
+          "id": 603,
+          "parentId": 600,
+          "name": "崇左市",
+          "childCity": []
+        },
+        {
+          "id": 604,
+          "parentId": 600,
+          "name": "防城港市",
+          "childCity": []
+        },
+        {
+          "id": 605,
+          "parentId": 600,
+          "name": "贵港市",
+          "childCity": []
+        },
+        {
+          "id": 606,
+          "parentId": 600,
+          "name": "桂林市",
+          "childCity": []
+        },
+        {
+          "id": 607,
+          "parentId": 600,
+          "name": "河池市",
+          "childCity": []
+        },
+        {
+          "id": 608,
+          "parentId": 600,
+          "name": "贺州市",
+          "childCity": []
+        },
+        {
+          "id": 609,
+          "parentId": 600,
+          "name": "来宾市",
+          "childCity": []
+        },
+        {
+          "id": 610,
+          "parentId": 600,
+          "name": "柳州市",
+          "childCity": []
+        },
+        {
+          "id": 611,
+          "parentId": 600,
+          "name": "南宁市",
+          "childCity": []
+        },
+        {
+          "id": 612,
+          "parentId": 600,
+          "name": "钦州市",
+          "childCity": []
+        },
+        {
+          "id": 613,
+          "parentId": 600,
+          "name": "梧州市",
+          "childCity": []
+        },
+        {
+          "id": 614,
+          "parentId": 600,
+          "name": "玉林市",
+          "childCity": []
+        },
+        {
+          "id": 615,
+          "parentId": 600,
+          "name": "其他地区",
+          "childCity": []
+        }
+      ]
+    },
+    {
+      "id": 700,
+      "parentId": 0,
+      "name": "贵州省",
+      "childCity": [
+        {
+          "id": 701,
+          "parentId": 700,
+          "name": "安顺市",
+          "childCity": []
+        },
+        {
+          "id": 702,
+          "parentId": 700,
+          "name": "毕节市",
+          "childCity": []
+        },
+        {
+          "id": 703,
+          "parentId": 700,
+          "name": "贵阳市",
+          "childCity": []
+        },
+        {
+          "id": 704,
+          "parentId": 700,
+          "name": "六盘水市",
+          "childCity": []
+        },
+        {
+          "id": 705,
+          "parentId": 700,
+          "name": "黔东南市",
+          "childCity": []
+        },
+        {
+          "id": 706,
+          "parentId": 700,
+          "name": "黔南市",
+          "childCity": []
+        },
+        {
+          "id": 707,
+          "parentId": 700,
+          "name": "黔西南市",
+          "childCity": []
+        },
+        {
+          "id": 708,
+          "parentId": 700,
+          "name": "铜仁市",
+          "childCity": []
+        },
+        {
+          "id": 709,
+          "parentId": 700,
+          "name": "遵义市",
+          "childCity": []
+        },
+        {
+          "id": 710,
+          "parentId": 700,
+          "name": "其他地区",
+          "childCity": []
+        }
+      ]
+    },
+    {
+      "id": 800,
+      "parentId": 0,
+      "name": "海南省",
+      "childCity": [
+        {
+          "id": 801,
+          "parentId": 800,
+          "name": "海口市",
+          "childCity": []
+        },
+        {
+          "id": 802,
+          "parentId": 800,
+          "name": "三亚市",
+          "childCity": []
+        },
+        {
+          "id": 803,
+          "parentId": 800,
+          "name": "其他地区",
+          "childCity": []
+        }
+      ]
+    },
+    {
+      "id": 900,
+      "parentId": 0,
+      "name": "河北省",
+      "childCity": [
+        {
+          "id": 901,
+          "parentId": 900,
+          "name": "保定市",
+          "childCity": []
+        },
+        {
+          "id": 902,
+          "parentId": 900,
+          "name": "沧州市",
+          "childCity": []
+        },
+        {
+          "id": 903,
+          "parentId": 900,
+          "name": "承德市",
+          "childCity": []
+        },
+        {
+          "id": 904,
+          "parentId": 900,
+          "name": "邯郸市",
+          "childCity": []
+        },
+        {
+          "id": 905,
+          "parentId": 900,
+          "name": "衡水市",
+          "childCity": []
+        },
+        {
+          "id": 906,
+          "parentId": 900,
+          "name": "廊坊市",
+          "childCity": []
+        },
+        {
+          "id": 907,
+          "parentId": 900,
+          "name": "秦皇岛市",
+          "childCity": []
+        },
+        {
+          "id": 908,
+          "parentId": 900,
+          "name": "石家庄市",
+          "childCity": []
+        },
+        {
+          "id": 909,
+          "parentId": 900,
+          "name": "唐山市",
+          "childCity": []
+        },
+        {
+          "id": 910,
+          "parentId": 900,
+          "name": "邢台市",
+          "childCity": []
+        },
+        {
+          "id": 911,
+          "parentId": 900,
+          "name": "张家口市",
+          "childCity": []
+        },
+        {
+          "id": 912,
+          "parentId": 900,
+          "name": "其他地区",
+          "childCity": []
+        }
+      ]
+    },
+    {
+      "id": 1000,
+      "parentId": 0,
+      "name": "河南省",
+      "childCity": [
+        {
+          "id": 1001,
+          "parentId": 1000,
+          "name": "安阳市",
+          "childCity": []
+        },
+        {
+          "id": 1002,
+          "parentId": 1000,
+          "name": "鹤壁市",
+          "childCity": []
+        },
+        {
+          "id": 1003,
+          "parentId": 1000,
+          "name": "济源市",
+          "childCity": []
+        },
+        {
+          "id": 1004,
+          "parentId": 1000,
+          "name": "焦作市",
+          "childCity": []
+        },
+        {
+          "id": 1005,
+          "parentId": 1000,
+          "name": "开封市",
+          "childCity": []
+        },
+        {
+          "id": 1006,
+          "parentId": 1000,
+          "name": "洛阳市",
+          "childCity": []
+        },
+        {
+          "id": 1007,
+          "parentId": 1000,
+          "name": "漯河市",
+          "childCity": []
+        },
+        {
+          "id": 1008,
+          "parentId": 1000,
+          "name": "南阳市",
+          "childCity": []
+        },
+        {
+          "id": 1009,
+          "parentId": 1000,
+          "name": "平顶山市",
+          "childCity": []
+        },
+        {
+          "id": 1010,
+          "parentId": 1000,
+          "name": "濮阳市",
+          "childCity": []
+        },
+        {
+          "id": 1011,
+          "parentId": 1000,
+          "name": "三门峡市",
+          "childCity": []
+        },
+        {
+          "id": 1012,
+          "parentId": 1000,
+          "name": "商丘市",
+          "childCity": []
+        },
+        {
+          "id": 1013,
+          "parentId": 1000,
+          "name": "新乡市",
+          "childCity": []
+        },
+        {
+          "id": 1014,
+          "parentId": 1000,
+          "name": "信阳市",
+          "childCity": []
+        },
+        {
+          "id": 1015,
+          "parentId": 1000,
+          "name": "许昌市",
+          "childCity": []
+        },
+        {
+          "id": 1016,
+          "parentId": 1000,
+          "name": "郑州市",
+          "childCity": []
+        },
+        {
+          "id": 1017,
+          "parentId": 1000,
+          "name": "周口市",
+          "childCity": []
+        },
+        {
+          "id": 1018,
+          "parentId": 1000,
+          "name": "驻马店市",
+          "childCity": []
+        },
+        {
+          "id": 1019,
+          "parentId": 1000,
+          "name": "其他地区",
+          "childCity": []
+        }
+      ]
+    },
+    {
+      "id": 1100,
+      "parentId": 0,
+      "name": "黑龙江省",
+      "childCity": [
+        {
+          "id": 1101,
+          "parentId": 1100,
+          "name": "大庆市",
+          "childCity": []
+        },
+        {
+          "id": 1102,
+          "parentId": 1100,
+          "name": "大兴安岭市",
+          "childCity": []
+        },
+        {
+          "id": 1103,
+          "parentId": 1100,
+          "name": "哈尔滨市",
+          "childCity": []
+        },
+        {
+          "id": 1104,
+          "parentId": 1100,
+          "name": "鹤岗市",
+          "childCity": []
+        },
+        {
+          "id": 1105,
+          "parentId": 1100,
+          "name": "黑河市",
+          "childCity": []
+        },
+        {
+          "id": 1106,
+          "parentId": 1100,
+          "name": "鸡西市",
+          "childCity": []
+        },
+        {
+          "id": 1107,
+          "parentId": 1100,
+          "name": "佳木斯市",
+          "childCity": []
+        },
+        {
+          "id": 1108,
+          "parentId": 1100,
+          "name": "牡丹江市",
+          "childCity": []
+        },
+        {
+          "id": 1109,
+          "parentId": 1100,
+          "name": "七台河市",
+          "childCity": []
+        },
+        {
+          "id": 1110,
+          "parentId": 1100,
+          "name": "齐齐哈尔市",
+          "childCity": []
+        },
+        {
+          "id": 1111,
+          "parentId": 1100,
+          "name": "双鸭山市",
+          "childCity": []
+        },
+        {
+          "id": 1112,
+          "parentId": 1100,
+          "name": "绥化市",
+          "childCity": []
+        },
+        {
+          "id": 1113,
+          "parentId": 1100,
+          "name": "伊春市",
+          "childCity": []
+        },
+        {
+          "id": 1114,
+          "parentId": 1100,
+          "name": "其他地区",
+          "childCity": []
+        }
+      ]
+    },
+    {
+      "id": 1200,
+      "parentId": 0,
+      "name": "湖北省",
+      "childCity": [
+        {
+          "id": 1201,
+          "parentId": 1200,
+          "name": "鄂州市",
+          "childCity": []
+        },
+        {
+          "id": 1202,
+          "parentId": 1200,
+          "name": "恩施市",
+          "childCity": []
+        },
+        {
+          "id": 1203,
+          "parentId": 1200,
+          "name": "黄冈市",
+          "childCity": []
+        },
+        {
+          "id": 1204,
+          "parentId": 1200,
+          "name": "黄石市",
+          "childCity": []
+        },
+        {
+          "id": 1205,
+          "parentId": 1200,
+          "name": "荆门市",
+          "childCity": []
+        },
+        {
+          "id": 1206,
+          "parentId": 1200,
+          "name": "荆州市",
+          "childCity": []
+        },
+        {
+          "id": 1207,
+          "parentId": 1200,
+          "name": "潜江市",
+          "childCity": []
+        },
+        {
+          "id": 1208,
+          "parentId": 1200,
+          "name": "神农架林区市",
+          "childCity": []
+        },
+        {
+          "id": 1209,
+          "parentId": 1200,
+          "name": "十堰市",
+          "childCity": []
+        },
+        {
+          "id": 1210,
+          "parentId": 1200,
+          "name": "随州市",
+          "childCity": []
+        },
+        {
+          "id": 1211,
+          "parentId": 1200,
+          "name": "天门市",
+          "childCity": []
+        },
+        {
+          "id": 1212,
+          "parentId": 1200,
+          "name": "武汉市",
+          "childCity": []
+        },
+        {
+          "id": 1213,
+          "parentId": 1200,
+          "name": "仙桃市",
+          "childCity": []
+        },
+        {
+          "id": 1214,
+          "parentId": 1200,
+          "name": "咸宁市",
+          "childCity": []
+        },
+        {
+          "id": 1215,
+          "parentId": 1200,
+          "name": "襄樊市",
+          "childCity": []
+        },
+        {
+          "id": 1216,
+          "parentId": 1200,
+          "name": "孝感市",
+          "childCity": []
+        },
+        {
+          "id": 1217,
+          "parentId": 1200,
+          "name": "宜昌市",
+          "childCity": []
+        },
+        {
+          "id": 1218,
+          "parentId": 1200,
+          "name": "其他地区",
+          "childCity": []
+        }
+      ]
+    },
+    {
+      "id": 1300,
+      "parentId": 0,
+      "name": "湖南省",
+      "childCity": [
+        {
+          "id": 1301,
+          "parentId": 1300,
+          "name": "长沙市",
+          "childCity": []
+        },
+        {
+          "id": 1302,
+          "parentId": 1300,
+          "name": "株洲市",
+          "childCity": []
+        },
+        {
+          "id": 1303,
+          "parentId": 1300,
+          "name": "湘潭市",
+          "childCity": []
+        },
+        {
+          "id": 1304,
+          "parentId": 1300,
+          "name": "衡阳市",
+          "childCity": []
+        },
+        {
+          "id": 1305,
+          "parentId": 1300,
+          "name": "邵阳市",
+          "childCity": []
+        },
+        {
+          "id": 1306,
+          "parentId": 1300,
+          "name": "岳阳市",
+          "childCity": []
+        },
+        {
+          "id": 1307,
+          "parentId": 1300,
+          "name": "常德市",
+          "childCity": []
+        },
+        {
+          "id": 1308,
+          "parentId": 1300,
+          "name": "张家界市",
+          "childCity": []
+        },
+        {
+          "id": 1309,
+          "parentId": 1300,
+          "name": "益阳市",
+          "childCity": []
+        },
+        {
+          "id": 1310,
+          "parentId": 1300,
+          "name": "郴州市",
+          "childCity": []
+        },
+        {
+          "id": 1311,
+          "parentId": 1300,
+          "name": "永州市",
+          "childCity": []
+        },
+        {
+          "id": 1312,
+          "parentId": 1300,
+          "name": "怀化市",
+          "childCity": []
+        },
+        {
+          "id": 1313,
+          "parentId": 1300,
+          "name": "娄底市",
+          "childCity": []
+        },
+        {
+          "id": 1314,
+          "parentId": 1300,
+          "name": "湘西市",
+          "childCity": []
+        },
+        {
+          "id": 1315,
+          "parentId": 1300,
+          "name": "其他地区",
+          "childCity": []
+        }
+      ]
+    },
+    {
+      "id": 1400,
+      "parentId": 0,
+      "name": "吉林省",
+      "childCity": [
+        {
+          "id": 1401,
+          "parentId": 1400,
+          "name": "白城市",
+          "childCity": []
+        },
+        {
+          "id": 1402,
+          "parentId": 1400,
+          "name": "白山市",
+          "childCity": []
+        },
+        {
+          "id": 1403,
+          "parentId": 1400,
+          "name": "长春市",
+          "childCity": []
+        },
+        {
+          "id": 1404,
+          "parentId": 1400,
+          "name": "吉林市",
+          "childCity": []
+        },
+        {
+          "id": 1405,
+          "parentId": 1400,
+          "name": "辽源市",
+          "childCity": []
+        },
+        {
+          "id": 1406,
+          "parentId": 1400,
+          "name": "四平市",
+          "childCity": []
+        },
+        {
+          "id": 1407,
+          "parentId": 1400,
+          "name": "松源市",
+          "childCity": []
+        },
+        {
+          "id": 1408,
+          "parentId": 1400,
+          "name": "通化市",
+          "childCity": []
+        },
+        {
+          "id": 1409,
+          "parentId": 1400,
+          "name": "延边市",
+          "childCity": []
+        },
+        {
+          "id": 1410,
+          "parentId": 1400,
+          "name": "其他地区",
+          "childCity": []
+        }
+      ]
+    },
+    {
+      "id": 1500,
+      "parentId": 0,
+      "name": "江苏省",
+      "childCity": [
+        {
+          "id": 1501,
+          "parentId": 1500,
+          "name": "常州市",
+          "childCity": []
+        },
+        {
+          "id": 1502,
+          "parentId": 1500,
+          "name": "淮安市",
+          "childCity": []
+        },
+        {
+          "id": 1503,
+          "parentId": 1500,
+          "name": "连云港市",
+          "childCity": []
+        },
+        {
+          "id": 1504,
+          "parentId": 1500,
+          "name": "南京市",
+          "childCity": []
+        },
+        {
+          "id": 1505,
+          "parentId": 1500,
+          "name": "南通市",
+          "childCity": []
+        },
+        {
+          "id": 1506,
+          "parentId": 1500,
+          "name": "苏州市",
+          "childCity": []
+        },
+        {
+          "id": 1507,
+          "parentId": 1500,
+          "name": "宿迁市",
+          "childCity": []
+        },
+        {
+          "id": 1508,
+          "parentId": 1500,
+          "name": "泰州市",
+          "childCity": []
+        },
+        {
+          "id": 1509,
+          "parentId": 1500,
+          "name": "无锡市",
+          "childCity": []
+        },
+        {
+          "id": 1510,
+          "parentId": 1500,
+          "name": "徐州市",
+          "childCity": []
+        },
+        {
+          "id": 1511,
+          "parentId": 1500,
+          "name": "盐城市",
+          "childCity": []
+        },
+        {
+          "id": 1512,
+          "parentId": 1500,
+          "name": "扬州市",
+          "childCity": []
+        },
+        {
+          "id": 1513,
+          "parentId": 1500,
+          "name": "镇江市",
+          "childCity": []
+        },
+        {
+          "id": 1514,
+          "parentId": 1500,
+          "name": "其他地区",
+          "childCity": []
+        }
+      ]
+    },
+    {
+      "id": 1600,
+      "parentId": 0,
+      "name": "江西省",
+      "childCity": [
+        {
+          "id": 1601,
+          "parentId": 1600,
+          "name": "抚州市",
+          "childCity": []
+        },
+        {
+          "id": 1602,
+          "parentId": 1600,
+          "name": "赣州市",
+          "childCity": []
+        },
+        {
+          "id": 1603,
+          "parentId": 1600,
+          "name": "吉安市",
+          "childCity": []
+        },
+        {
+          "id": 1604,
+          "parentId": 1600,
+          "name": "景德镇市",
+          "childCity": []
+        },
+        {
+          "id": 1605,
+          "parentId": 1600,
+          "name": "九江市",
+          "childCity": []
+        },
+        {
+          "id": 1606,
+          "parentId": 1600,
+          "name": "南昌市",
+          "childCity": []
+        },
+        {
+          "id": 1607,
+          "parentId": 1600,
+          "name": "萍乡市",
+          "childCity": []
+        },
+        {
+          "id": 1608,
+          "parentId": 1600,
+          "name": "上饶市",
+          "childCity": []
+        },
+        {
+          "id": 1609,
+          "parentId": 1600,
+          "name": "新余市",
+          "childCity": []
+        },
+        {
+          "id": 1610,
+          "parentId": 1600,
+          "name": "宜春市",
+          "childCity": []
+        },
+        {
+          "id": 1611,
+          "parentId": 1600,
+          "name": "鹰潭市",
+          "childCity": []
+        },
+        {
+          "id": 1612,
+          "parentId": 1600,
+          "name": "其他地区",
+          "childCity": []
+        }
+      ]
+    },
+    {
+      "id": 1700,
+      "parentId": 0,
+      "name": "辽宁省",
+      "childCity": [
+        {
+          "id": 1701,
+          "parentId": 1700,
+          "name": "鞍山市",
+          "childCity": []
+        },
+        {
+          "id": 1702,
+          "parentId": 1700,
+          "name": "本溪市",
+          "childCity": []
+        },
+        {
+          "id": 1703,
+          "parentId": 1700,
+          "name": "朝阳市",
+          "childCity": []
+        },
+        {
+          "id": 1704,
+          "parentId": 1700,
+          "name": "大连市",
+          "childCity": []
+        },
+        {
+          "id": 1705,
+          "parentId": 1700,
+          "name": "丹东市",
+          "childCity": []
+        },
+        {
+          "id": 1706,
+          "parentId": 1700,
+          "name": "抚顺市",
+          "childCity": []
+        },
+        {
+          "id": 1707,
+          "parentId": 1700,
+          "name": "阜新市",
+          "childCity": []
+        },
+        {
+          "id": 1708,
+          "parentId": 1700,
+          "name": "葫芦岛市",
+          "childCity": []
+        },
+        {
+          "id": 1709,
+          "parentId": 1700,
+          "name": "锦州市",
+          "childCity": []
+        },
+        {
+          "id": 1710,
+          "parentId": 1700,
+          "name": "辽阳市",
+          "childCity": []
+        },
+        {
+          "id": 1711,
+          "parentId": 1700,
+          "name": "盘锦市",
+          "childCity": []
+        },
+        {
+          "id": 1712,
+          "parentId": 1700,
+          "name": "沈阳市",
+          "childCity": []
+        },
+        {
+          "id": 1713,
+          "parentId": 1700,
+          "name": "铁岭市",
+          "childCity": []
+        },
+        {
+          "id": 1714,
+          "parentId": 1700,
+          "name": "营口市",
+          "childCity": []
+        },
+        {
+          "id": 1715,
+          "parentId": 1700,
+          "name": "其他地区",
+          "childCity": []
+        }
+      ]
+    },
+    {
+      "id": 1800,
+      "parentId": 0,
+      "name": "内蒙古",
+      "childCity": [
+        {
+          "id": 1801,
+          "parentId": 1800,
+          "name": "阿拉善盟市",
+          "childCity": []
+        },
+        {
+          "id": 1802,
+          "parentId": 1800,
+          "name": "巴彦淖尔市",
+          "childCity": []
+        },
+        {
+          "id": 1803,
+          "parentId": 1800,
+          "name": "包头市",
+          "childCity": []
+        },
+        {
+          "id": 1804,
+          "parentId": 1800,
+          "name": "赤峰市",
+          "childCity": []
+        },
+        {
+          "id": 1805,
+          "parentId": 1800,
+          "name": "鄂尔多斯市",
+          "childCity": []
+        },
+        {
+          "id": 1806,
+          "parentId": 1800,
+          "name": "呼和浩特市",
+          "childCity": []
+        },
+        {
+          "id": 1807,
+          "parentId": 1800,
+          "name": "呼伦贝尔市",
+          "childCity": []
+        },
+        {
+          "id": 1808,
+          "parentId": 1800,
+          "name": "通辽市",
+          "childCity": []
+        },
+        {
+          "id": 1809,
+          "parentId": 1800,
+          "name": "乌海市",
+          "childCity": []
+        },
+        {
+          "id": 1810,
+          "parentId": 1800,
+          "name": "乌兰察布市",
+          "childCity": []
+        },
+        {
+          "id": 1811,
+          "parentId": 1800,
+          "name": "锡林郭勒盟市",
+          "childCity": []
+        },
+        {
+          "id": 1812,
+          "parentId": 1800,
+          "name": "兴安盟市",
+          "childCity": []
+        },
+        {
+          "id": 1813,
+          "parentId": 1800,
+          "name": "其他地区",
+          "childCity": []
+        }
+      ]
+    },
+    {
+      "id": 1900,
+      "parentId": 0,
+      "name": "宁夏省",
+      "childCity": [
+        {
+          "id": 1901,
+          "parentId": 1900,
+          "name": "固原市",
+          "childCity": []
+        },
+        {
+          "id": 1902,
+          "parentId": 1900,
+          "name": "凉山市",
+          "childCity": []
+        },
+        {
+          "id": 1903,
+          "parentId": 1900,
+          "name": "石嘴山市",
+          "childCity": []
+        },
+        {
+          "id": 1904,
+          "parentId": 1900,
+          "name": "吴忠市",
+          "childCity": []
+        },
+        {
+          "id": 1905,
+          "parentId": 1900,
+          "name": "银川市",
+          "childCity": []
+        },
+        {
+          "id": 1906,
+          "parentId": 1900,
+          "name": "中卫市",
+          "childCity": []
+        },
+        {
+          "id": 1907,
+          "parentId": 1900,
+          "name": "其他地区",
+          "childCity": []
+        }
+      ]
+    },
+    {
+      "id": 2000,
+      "parentId": 0,
+      "name": "青海省",
+      "childCity": [
+        {
+          "id": 2001,
+          "parentId": 2000,
+          "name": "果洛市",
+          "childCity": []
+        },
+        {
+          "id": 2002,
+          "parentId": 2000,
+          "name": "海北市",
+          "childCity": []
+        },
+        {
+          "id": 2003,
+          "parentId": 2000,
+          "name": "海东市",
+          "childCity": []
+        },
+        {
+          "id": 2004,
+          "parentId": 2000,
+          "name": "海南市",
+          "childCity": []
+        },
+        {
+          "id": 2005,
+          "parentId": 2000,
+          "name": "海西市",
+          "childCity": []
+        },
+        {
+          "id": 2006,
+          "parentId": 2000,
+          "name": "黄南市",
+          "childCity": []
+        },
+        {
+          "id": 2007,
+          "parentId": 2000,
+          "name": "西宁市",
+          "childCity": []
+        },
+        {
+          "id": 2008,
+          "parentId": 2000,
+          "name": "玉树市",
+          "childCity": []
+        },
+        {
+          "id": 2009,
+          "parentId": 2000,
+          "name": "其他地区",
+          "childCity": []
+        }
+      ]
+    },
+    {
+      "id": 2100,
+      "parentId": 0,
+      "name": "山东省",
+      "childCity": [
+        {
+          "id": 2101,
+          "parentId": 2100,
+          "name": "滨州市",
+          "childCity": []
+        },
+        {
+          "id": 2102,
+          "parentId": 2100,
+          "name": "德州市",
+          "childCity": []
+        },
+        {
+          "id": 2103,
+          "parentId": 2100,
+          "name": "东营市",
+          "childCity": []
+        },
+        {
+          "id": 2104,
+          "parentId": 2100,
+          "name": "菏泽市",
+          "childCity": []
+        },
+        {
+          "id": 2105,
+          "parentId": 2100,
+          "name": "济南市",
+          "childCity": []
+        },
+        {
+          "id": 2106,
+          "parentId": 2100,
+          "name": "济宁市",
+          "childCity": []
+        },
+        {
+          "id": 2107,
+          "parentId": 2100,
+          "name": "莱芜市",
+          "childCity": []
+        },
+        {
+          "id": 2108,
+          "parentId": 2100,
+          "name": "聊城市",
+          "childCity": []
+        },
+        {
+          "id": 2109,
+          "parentId": 2100,
+          "name": "临沂市",
+          "childCity": []
+        },
+        {
+          "id": 2110,
+          "parentId": 2100,
+          "name": "青岛市",
+          "childCity": []
+        },
+        {
+          "id": 2111,
+          "parentId": 2100,
+          "name": "日照市",
+          "childCity": []
+        },
+        {
+          "id": 2112,
+          "parentId": 2100,
+          "name": "泰安市",
+          "childCity": []
+        },
+        {
+          "id": 2113,
+          "parentId": 2100,
+          "name": "威海市",
+          "childCity": []
+        },
+        {
+          "id": 2114,
+          "parentId": 2100,
+          "name": "潍坊市",
+          "childCity": []
+        },
+        {
+          "id": 2115,
+          "parentId": 2100,
+          "name": "烟台市",
+          "childCity": []
+        },
+        {
+          "id": 2116,
+          "parentId": 2100,
+          "name": "枣庄市",
+          "childCity": []
+        },
+        {
+          "id": 2117,
+          "parentId": 2100,
+          "name": "淄博市",
+          "childCity": []
+        },
+        {
+          "id": 2118,
+          "parentId": 2100,
+          "name": "其他地区",
+          "childCity": []
+        }
+      ]
+    },
+    {
+      "id": 2200,
+      "parentId": 0,
+      "name": "山西省",
+      "childCity": [
+        {
+          "id": 2201,
+          "parentId": 2200,
+          "name": "长治市",
+          "childCity": []
+        },
+        {
+          "id": 2202,
+          "parentId": 2200,
+          "name": "大同市",
+          "childCity": []
+        },
+        {
+          "id": 2203,
+          "parentId": 2200,
+          "name": "晋城市",
+          "childCity": []
+        },
+        {
+          "id": 2204,
+          "parentId": 2200,
+          "name": "晋中市",
+          "childCity": []
+        },
+        {
+          "id": 2205,
+          "parentId": 2200,
+          "name": "临汾市",
+          "childCity": []
+        },
+        {
+          "id": 2206,
+          "parentId": 2200,
+          "name": "吕梁市",
+          "childCity": []
+        },
+        {
+          "id": 2207,
+          "parentId": 2200,
+          "name": "朔州市",
+          "childCity": []
+        },
+        {
+          "id": 2208,
+          "parentId": 2200,
+          "name": "太原市",
+          "childCity": []
+        },
+        {
+          "id": 2209,
+          "parentId": 2200,
+          "name": "忻州市",
+          "childCity": []
+        },
+        {
+          "id": 2210,
+          "parentId": 2200,
+          "name": "阳泉市",
+          "childCity": []
+        },
+        {
+          "id": 2211,
+          "parentId": 2200,
+          "name": "运城市",
+          "childCity": []
+        },
+        {
+          "id": 2212,
+          "parentId": 2200,
+          "name": "其他地区",
+          "childCity": []
+        }
+      ]
+    },
+    {
+      "id": 2300,
+      "parentId": 0,
+      "name": "陕西省",
+      "childCity": [
+        {
+          "id": 2301,
+          "parentId": 2300,
+          "name": "安康市",
+          "childCity": []
+        },
+        {
+          "id": 2302,
+          "parentId": 2300,
+          "name": "宝鸡市",
+          "childCity": []
+        },
+        {
+          "id": 2303,
+          "parentId": 2300,
+          "name": "汉中市",
+          "childCity": []
+        },
+        {
+          "id": 2304,
+          "parentId": 2300,
+          "name": "商洛市",
+          "childCity": []
+        },
+        {
+          "id": 2305,
+          "parentId": 2300,
+          "name": "铜川市",
+          "childCity": []
+        },
+        {
+          "id": 2306,
+          "parentId": 2300,
+          "name": "渭南市",
+          "childCity": []
+        },
+        {
+          "id": 2307,
+          "parentId": 2300,
+          "name": "西安市",
+          "childCity": []
+        },
+        {
+          "id": 2308,
+          "parentId": 2300,
+          "name": "咸阳市",
+          "childCity": []
+        },
+        {
+          "id": 2309,
+          "parentId": 2300,
+          "name": "延安市",
+          "childCity": []
+        },
+        {
+          "id": 2310,
+          "parentId": 2300,
+          "name": "榆林市",
+          "childCity": []
+        },
+        {
+          "id": 2311,
+          "parentId": 2300,
+          "name": "其他地区",
+          "childCity": []
+        }
+      ]
+    },
+    {
+      "id": 2400,
+      "parentId": 0,
+      "name": "上海市",
+      "childCity": []
+    },
+    {
+      "id": 2500,
+      "parentId": 0,
+      "name": "四川省",
+      "childCity": [
+        {
+          "id": 2501,
+          "parentId": 2500,
+          "name": "阿坝市",
+          "childCity": []
+        },
+        {
+          "id": 2502,
+          "parentId": 2500,
+          "name": "巴中市",
+          "childCity": []
+        },
+        {
+          "id": 2503,
+          "parentId": 2500,
+          "name": "成都市",
+          "childCity": []
+        },
+        {
+          "id": 2504,
+          "parentId": 2500,
+          "name": "达州市",
+          "childCity": []
+        },
+        {
+          "id": 2505,
+          "parentId": 2500,
+          "name": "德阳市",
+          "childCity": []
+        },
+        {
+          "id": 2506,
+          "parentId": 2500,
+          "name": "甘孜市",
+          "childCity": []
+        },
+        {
+          "id": 2507,
+          "parentId": 2500,
+          "name": "广安市",
+          "childCity": []
+        },
+        {
+          "id": 2508,
+          "parentId": 2500,
+          "name": "广元市",
+          "childCity": []
+        },
+        {
+          "id": 2509,
+          "parentId": 2500,
+          "name": "乐山市",
+          "childCity": []
+        },
+        {
+          "id": 2510,
+          "parentId": 2500,
+          "name": "泸州市",
+          "childCity": []
+        },
+        {
+          "id": 2511,
+          "parentId": 2500,
+          "name": "眉山市",
+          "childCity": []
+        },
+        {
+          "id": 2512,
+          "parentId": 2500,
+          "name": "绵阳市",
+          "childCity": []
+        },
+        {
+          "id": 2513,
+          "parentId": 2500,
+          "name": "内江市",
+          "childCity": []
+        },
+        {
+          "id": 2514,
+          "parentId": 2500,
+          "name": "南充市",
+          "childCity": []
+        },
+        {
+          "id": 2515,
+          "parentId": 2500,
+          "name": "攀枝花市",
+          "childCity": []
+        },
+        {
+          "id": 2516,
+          "parentId": 2500,
+          "name": "遂宁市",
+          "childCity": []
+        },
+        {
+          "id": 2517,
+          "parentId": 2500,
+          "name": "雅安市",
+          "childCity": []
+        },
+        {
+          "id": 2518,
+          "parentId": 2500,
+          "name": "宜宾市",
+          "childCity": []
+        },
+        {
+          "id": 2519,
+          "parentId": 2500,
+          "name": "资阳市",
+          "childCity": []
+        },
+        {
+          "id": 2520,
+          "parentId": 2500,
+          "name": "自贡市",
+          "childCity": []
+        },
+        {
+          "id": 2521,
+          "parentId": 2500,
+          "name": "其他地区",
+          "childCity": []
+        }
+      ]
+    },
+    {
+      "id": 2600,
+      "parentId": 0,
+      "name": "天津市",
+      "childCity": []
+    },
+    {
+      "id": 2700,
+      "parentId": 0,
+      "name": "西藏省",
+      "childCity": [
+        {
+          "id": 2701,
+          "parentId": 2700,
+          "name": "阿里市",
+          "childCity": []
+        },
+        {
+          "id": 2702,
+          "parentId": 2700,
+          "name": "昌都市",
+          "childCity": []
+        },
+        {
+          "id": 2703,
+          "parentId": 2700,
+          "name": "拉萨市",
+          "childCity": []
+        },
+        {
+          "id": 2704,
+          "parentId": 2700,
+          "name": "林芝市",
+          "childCity": []
+        },
+        {
+          "id": 2705,
+          "parentId": 2700,
+          "name": "那曲市",
+          "childCity": []
+        },
+        {
+          "id": 2706,
+          "parentId": 2700,
+          "name": "日喀则市",
+          "childCity": []
+        },
+        {
+          "id": 2707,
+          "parentId": 2700,
+          "name": "山南市",
+          "childCity": []
+        },
+        {
+          "id": 2708,
+          "parentId": 2700,
+          "name": "其他地区",
+          "childCity": []
+        }
+      ]
+    },
+    {
+      "id": 2800,
+      "parentId": 0,
+      "name": "新疆",
+      "childCity": [
+        {
+          "id": 2801,
+          "parentId": 2800,
+          "name": "阿克苏市",
+          "childCity": []
+        },
+        {
+          "id": 2802,
+          "parentId": 2800,
+          "name": "阿勒泰市",
+          "childCity": []
+        },
+        {
+          "id": 2803,
+          "parentId": 2800,
+          "name": "巴州市",
+          "childCity": []
+        },
+        {
+          "id": 2804,
+          "parentId": 2800,
+          "name": "博州市",
+          "childCity": []
+        },
+        {
+          "id": 2805,
+          "parentId": 2800,
+          "name": "昌吉州市",
+          "childCity": []
+        },
+        {
+          "id": 2806,
+          "parentId": 2800,
+          "name": "哈密市",
+          "childCity": []
+        },
+        {
+          "id": 2807,
+          "parentId": 2800,
+          "name": "和田市",
+          "childCity": []
+        },
+        {
+          "id": 2808,
+          "parentId": 2800,
+          "name": "喀什市",
+          "childCity": []
+        },
+        {
+          "id": 2809,
+          "parentId": 2800,
+          "name": "克拉玛依市",
+          "childCity": []
+        },
+        {
+          "id": 2810,
+          "parentId": 2800,
+          "name": "克州市",
+          "childCity": []
+        },
+        {
+          "id": 2811,
+          "parentId": 2800,
+          "name": "塔城市",
+          "childCity": []
+        },
+        {
+          "id": 2812,
+          "parentId": 2800,
+          "name": "吐鲁番市",
+          "childCity": []
+        },
+        {
+          "id": 2813,
+          "parentId": 2800,
+          "name": "乌鲁木齐市",
+          "childCity": []
+        },
+        {
+          "id": 2814,
+          "parentId": 2800,
+          "name": "伊犁州直市",
+          "childCity": []
+        },
+        {
+          "id": 2814,
+          "parentId": 2800,
+          "name": "其他地区",
+          "childCity": []
+        }
+      ]
+    },
+    {
+      "id": 2900,
+      "parentId": 0,
+      "name": "云南省",
+      "childCity": [
+        {
+          "id": 2901,
+          "parentId": 2900,
+          "name": "版纳市",
+          "childCity": []
+        },
+        {
+          "id": 2902,
+          "parentId": 2900,
+          "name": "保山市",
+          "childCity": []
+        },
+        {
+          "id": 2903,
+          "parentId": 2900,
+          "name": "楚雄市",
+          "childCity": []
+        },
+        {
+          "id": 2904,
+          "parentId": 2900,
+          "name": "大理市",
+          "childCity": []
+        },
+        {
+          "id": 2905,
+          "parentId": 2900,
+          "name": "德宏市",
+          "childCity": []
+        },
+        {
+          "id": 2906,
+          "parentId": 2900,
+          "name": "迪庆市",
+          "childCity": []
+        },
+        {
+          "id": 2907,
+          "parentId": 2900,
+          "name": "红河市",
+          "childCity": []
+        },
+        {
+          "id": 2908,
+          "parentId": 2900,
+          "name": "昆明市",
+          "childCity": []
+        },
+        {
+          "id": 2909,
+          "parentId": 2900,
+          "name": "丽江市",
+          "childCity": []
+        },
+        {
+          "id": 2910,
+          "parentId": 2900,
+          "name": "临沧市",
+          "childCity": []
+        },
+        {
+          "id": 2911,
+          "parentId": 2900,
+          "name": "怒江市",
+          "childCity": []
+        },
+        {
+          "id": 2912,
+          "parentId": 2900,
+          "name": "普洱市",
+          "childCity": []
+        },
+        {
+          "id": 2913,
+          "parentId": 2900,
+          "name": "曲靖市",
+          "childCity": []
+        },
+        {
+          "id": 2914,
+          "parentId": 2900,
+          "name": "文山市",
+          "childCity": []
+        },
+        {
+          "id": 2915,
+          "parentId": 2900,
+          "name": "玉溪市",
+          "childCity": []
+        },
+        {
+          "id": 2916,
+          "parentId": 2900,
+          "name": "昭通市",
+          "childCity": []
+        },
+        {
+          "id": 2917,
+          "parentId": 2900,
+          "name": "其他市",
+          "childCity": []
+        }
+      ]
+    },
+    {
+      "id": 3000,
+      "parentId": 0,
+      "name": "浙江省",
+      "childCity": [
+        {
+          "id": 3001,
+          "parentId": 3000,
+          "name": "杭州市",
+          "childCity": []
+        },
+        {
+          "id": 3002,
+          "parentId": 3000,
+          "name": "湖州市",
+          "childCity": []
+        },
+        {
+          "id": 3003,
+          "parentId": 3000,
+          "name": "嘉兴市",
+          "childCity": []
+        },
+        {
+          "id": 3004,
+          "parentId": 3000,
+          "name": "金华市",
+          "childCity": []
+        },
+        {
+          "id": 3005,
+          "parentId": 3000,
+          "name": "丽水市",
+          "childCity": []
+        },
+        {
+          "id": 3006,
+          "parentId": 3000,
+          "name": "宁波市",
+          "childCity": []
+        },
+        {
+          "id": 3007,
+          "parentId": 3000,
+          "name": "衢州市",
+          "childCity": []
+        },
+        {
+          "id": 3008,
+          "parentId": 3000,
+          "name": "绍兴市",
+          "childCity": []
+        },
+        {
+          "id": 3009,
+          "parentId": 3000,
+          "name": "台州市",
+          "childCity": []
+        },
+        {
+          "id": 3010,
+          "parentId": 3000,
+          "name": "温州市",
+          "childCity": []
+        },
+        {
+          "id": 3011,
+          "parentId": 3000,
+          "name": "舟山市",
+          "childCity": []
+        },
+        {
+          "id": 3012,
+          "parentId": 3000,
+          "name": "其他地区",
+          "childCity": []
+        }
+      ]
+    },
+    {
+      "id": 3100,
+      "parentId": 0,
+      "name": "重庆市",
+      "childCity": []
+    }
+  ],
+  "pageTurn": {
+    "currentPage": 1,
+    "end": 1,
+    "firstPage": 1,
+    "nextPage": 1,
+    "page": 1,
+    "pageCount": 1,
+    "pageSize": 10,
+    "prevPage": 1,
+    "rowCount": 1,
+    "start": 0
+  }
+}

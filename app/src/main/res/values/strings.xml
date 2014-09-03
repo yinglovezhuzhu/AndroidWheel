@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidWheel</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="loading">加载中\u2026</string>
+    <string name="location">位置</string>
+
+</resources>
