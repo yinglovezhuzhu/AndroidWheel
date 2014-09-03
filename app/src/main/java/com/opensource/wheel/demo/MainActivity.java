@@ -126,6 +126,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
             @Override
             public void onChanged(WheelView wheel, int oldValue, int newValue) {
                 LogUtil.w(TAG, "oldValue-->>> " + oldValue + "<> newValue--->>> " + newValue);
+                mProvinceAdapter.setCurrentItem(newValue);
                 if(!mProviceScrolling) {
                     CityResp.City province = mProvinceAdapter.getItem(newValue);
                     if(null != province) {
@@ -311,6 +312,11 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
             return mmCityDatas.isEmpty() ? 1 : mmCityDatas.size();
         }
 
+        private int mCurrentItem = -1;
+        public void setCurrentItem(int currentItem) {
+            this.mCurrentItem = currentItem;
+        }
+
         @Override
         public View getItem(int index, View convertView, ViewGroup parent) {
             if(index >= 0 && index < getItemsCount() && !mmCityDatas.isEmpty()) {
@@ -323,6 +329,11 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
                     convertView = tv;
                 } else {
                     tv = (TextView) convertView;
+                }
+                if(mCurrentItem != -1 && mCurrentItem == index) {
+                    tv.setTextColor(0xFF000000);
+                } else {
+                    tv.setTextColor(0xFF808080);
                 }
                 CityResp.City city = mmCityDatas.get(index);
                 if(null != city) {

@@ -9,5 +9,7 @@
     <string name="cancel">取消</string>
     <string name="loading">加载中\u2026</string>
     <string name="location">位置</string>
+    <string name="location_hint">请选择您的位置</string>
+
 
 </resources>

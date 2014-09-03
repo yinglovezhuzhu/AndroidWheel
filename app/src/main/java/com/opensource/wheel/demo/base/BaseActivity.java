@@ -24,9 +24,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.util.AttributeSet;
-import android.view.KeyEvent;
 import android.view.View;
-import android.view.Window;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -48,58 +46,54 @@ public class BaseActivity extends FragmentActivity {
 
     protected CustomProgressDialog mProgressDialog = null;
 
-    protected KeyUpListener mKeyUpListener = null;
-    
 
 
     /******************************** 【Activity LifeCycle For Debug】 *******************************************/
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        LogUtil.d(TAG, this.getClass().getSimpleName() + " onCreate() invoked!!");
         super.onCreate(savedInstanceState);
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        LogUtil.d(TAG, this.getClass().getSimpleName() + " onCreate() invoked!!");
     }
 
     @Override
     protected void onStart() {
-        LogUtil.d(TAG, this.getClass().getSimpleName() + " onStart() invoked!!");
         super.onStart();
+        LogUtil.d(TAG, this.getClass().getSimpleName() + " onStart() invoked!!");
     }
 
     @Override
     protected void onRestart() {
-        LogUtil.d(TAG, this.getClass().getSimpleName() + " onRestart() invoked!!");
         super.onRestart();
+        LogUtil.d(TAG, this.getClass().getSimpleName() + " onRestart() invoked!!");
     }
 
     @Override
     protected void onResume() {
-        LogUtil.d(TAG, this.getClass().getSimpleName() + " onResume() invoked!!");
-//		MobclickAgent.onResume(this);
         super.onResume();
+        LogUtil.d(TAG, this.getClass().getSimpleName() + " onResume() invoked!!");
     }
 
     @Override
     protected void onPause() {
-        LogUtil.d(TAG, this.getClass().getSimpleName() + " onPause() invoked!!");
-//		MobclickAgent.onPause(this);
         super.onPause();
+        LogUtil.d(TAG, this.getClass().getSimpleName() + " onPause() invoked!!");
     }
 
     @Override
     protected void onStop() {
-        LogUtil.d(TAG, this.getClass().getSimpleName() + " onStop() invoked!!");
         super.onStop();
+        LogUtil.d(TAG, this.getClass().getSimpleName() + " onStop() invoked!!");
     }
 
     @Override
     protected void onDestroy() {
+        super.onDestroy();
         LogUtil.d(TAG, this.getClass().getSimpleName() + " onDestroy() invoked!!");
     }
 
     @Override
     public View onCreateView(String name, Context context, AttributeSet attrs) {
-        LogUtil.d(TAG, this.getClass().getSimpleName() + " onCreateView() invoked!!");
+//        LogUtil.d(TAG, this.getClass().getSimpleName() + " onCreateView() invoked!!");
         return super.onCreateView(name, context, attrs);
     }
 
@@ -248,24 +242,5 @@ public class BaseActivity extends FragmentActivity {
         return getIntent().hasExtra(key);
     }
 
-
-    public void setKeyUpListener(KeyUpListener kl) {
-        this.mKeyUpListener = kl;
-    }
-
-    /**
-     * 功能：KeyUp事件，用于加入该FragmentActivity中的Fragment的KeyUp事件
-     * @author xiaoying
-     *
-     */
-    public static interface KeyUpListener {
-        /**
-         * keyUp事件处理
-         * @param keyCode
-         * @param ev
-         * @return true Fragment中有KeyUp事件被处理，false则Fragment中没有KeyUp事件被处理
-         */
-        public boolean onKeyUp(int keyCode, KeyEvent ev);
-    }
 
 }

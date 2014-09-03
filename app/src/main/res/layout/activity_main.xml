@@ -32,6 +32,7 @@
             android:textColor="@color/text_color_black"
             android:textColorHint="@color/text_color_hint"
             android:drawableRight="@drawable/ic_item_arrow_gray"
+            android:hint="@string/location_hint"
             android:drawablePadding="15dip"/>
     </LinearLayout>
     <View

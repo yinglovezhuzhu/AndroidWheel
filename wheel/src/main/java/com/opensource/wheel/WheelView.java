@@ -431,7 +431,7 @@ public class WheelView extends View {
 	 * Determine whether shadows are drawn
 	 * @return true is shadows are drawn
 	 */
-	public boolean drawShadows() {
+	public boolean isDrawShadows() {
 		return mDrawShadows;
 	}
 
@@ -627,9 +627,9 @@ public class WheelView extends View {
 
             if(mDrawSelectorOnTop) {
                 drawItems(canvas);
-                drawCenterRect(canvas);
+                drawSelector(canvas);
             } else {
-                drawCenterRect(canvas);
+                drawSelector(canvas);
                 drawItems(canvas);
             }
 		}
@@ -669,7 +669,7 @@ public class WheelView extends View {
 	 * Draws rect for current value
 	 * @param canvas the canvas for drawing
 	 */
-	private void drawCenterRect(Canvas canvas) {
+	private void drawSelector(Canvas canvas) {
 		int center = getHeight() / 2;
 		int offset = (int) (getItemHeight() / 2 * 1.2);
 		mSelectorDrawable.setBounds(0, center - offset, getWidth(), center + offset);
