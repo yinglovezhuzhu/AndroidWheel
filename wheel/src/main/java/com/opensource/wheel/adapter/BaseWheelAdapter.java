@@ -26,7 +26,7 @@ import java.util.List;
 /**
  * Abstract Wheel adapter.
  */
-public abstract class BaseWheelAdapter implements WheelViewAdapter {
+public abstract class BaseWheelAdapter implements WheelAdapter {
     // Observers
     private List<DataSetObserver> mDatasetObservers;
     
@@ -49,23 +49,23 @@ public abstract class BaseWheelAdapter implements WheelViewAdapter {
             mDatasetObservers.remove(observer);
         }
     }
-    
+
     /**
      * Notifies observers about data changing
      */
-    protected void notifyDataChangedEvent() {
-        if (mDatasetObservers != null) {
+    public void notifyDataSetChanged() {
+        if(null != mDatasetObservers) {
             for (DataSetObserver observer : mDatasetObservers) {
                 observer.onChanged();
             }
         }
     }
-    
+
     /**
      * Notifies observers about invalidating data
      */
-    protected void notifyDataInvalidatedEvent() {
-        if (mDatasetObservers != null) {
+    public void notifyDataSetInvalidate() {
+        if(null != mDatasetObservers) {
             for (DataSetObserver observer : mDatasetObservers) {
                 observer.onInvalidated();
             }

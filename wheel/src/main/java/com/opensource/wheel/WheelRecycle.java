@@ -19,11 +19,11 @@
 
 package com.opensource.wheel;
 
-import java.util.LinkedList;
-import java.util.List;
-
 import android.view.View;
 import android.widget.LinearLayout;
+
+import java.util.LinkedList;
+import java.util.List;
 
 /**
  * Recycle stores wheel items to reuse. 
@@ -36,14 +36,14 @@ public class WheelRecycle {
 	private List<View> mEmptyItems;
 	
 	// Wheel view
-	private WheelView mWheel;
+	private WheelView mWheelView;
 	
 	/**
 	 * Constructor
 	 * @param wheel the wheel view
 	 */
 	public WheelRecycle(WheelView wheel) {
-		this.mWheel = wheel;
+		this.mWheelView = wheel;
 	}
 
 	/**
@@ -122,9 +122,9 @@ public class WheelRecycle {
 	 * @param index the index of view
 	 */
 	private void recycleView(View view, int index) {
-		int count = mWheel.getViewAdapter().getItemsCount();
+		int count = mWheelView.getAdapter().getItemsCount();
 
-		if ((index < 0 || index >= count) && !mWheel.isCyclic()) {
+		if ((index < 0 || index >= count) && !mWheelView.isCyclic()) {
 			// empty view
 			mEmptyItems = addView(view, mEmptyItems);
 		} else {

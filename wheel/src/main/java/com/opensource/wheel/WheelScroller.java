@@ -184,19 +184,19 @@ public class WheelScroller {
      */
     private void setNextMessage(int message) {
         clearMessages();
-        animationHandler.sendEmptyMessage(message);
+        mAnimationHandler.sendEmptyMessage(message);
     }
 
     /**
      * Clears messages from queue
      */
     private void clearMessages() {
-        animationHandler.removeMessages(MESSAGE_SCROLL);
-        animationHandler.removeMessages(MESSAGE_JUSTIFY);
+        mAnimationHandler.removeMessages(MESSAGE_SCROLL);
+        mAnimationHandler.removeMessages(MESSAGE_JUSTIFY);
     }
     
     // animation handler
-    private Handler animationHandler = new Handler() {
+    private Handler mAnimationHandler = new Handler() {
         public void handleMessage(Message msg) {
             mScroller.computeScrollOffset();
             int currY = mScroller.getCurrY();
@@ -213,7 +213,7 @@ public class WheelScroller {
                 mScroller.forceFinished(true);
             }
             if (!mScroller.isFinished()) {
-                animationHandler.sendEmptyMessage(msg.what);
+                mAnimationHandler.sendEmptyMessage(msg.what);
             } else if (msg.what == MESSAGE_SCROLL) {
                 justify();
             } else {

@@ -23,7 +23,7 @@ import android.view.ViewGroup;
 /**
  * Wheel items adapter interface
  */
-public interface WheelViewAdapter {
+public interface WheelAdapter {
 	/**
 	 * Gets items count
 	 * @return the count of wheel items

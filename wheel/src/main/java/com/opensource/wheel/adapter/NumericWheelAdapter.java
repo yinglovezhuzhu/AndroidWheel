@@ -21,7 +21,7 @@ import android.content.Context;
 /**
  * Numeric Wheel adapter.
  */
-public class NumericWheelAdapter extends BaseWheelTextAdapter {
+public class NumericWheelAdapter extends BaseTextWheelAdapter {
     
     /** The default min value */
     public static final int DEFAULT_MAX_VALUE = 9;

@@ -94,6 +94,12 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         mCityView = (WheelView) view.findViewById(R.id.wv_cities_chooser_cities);
         mProviceView.setVisibleItems(5);
         mCityView.setVisibleItems(5);
+        mProvinceAdapter = new CityAdapter(this);
+        mProviceView.setAdapter(mProvinceAdapter);
+        mCityAdatper = new CityAdapter(this);
+        mCityView.setAdapter(mCityAdatper);
+        mProviceView.setDrawSelectorOnTop(false);
+        mCityView.setDrawSelectorOnTop(false);
         mProviceView.addScrollingListener(new OnWheelScrollListener() {
 
             @Override
@@ -108,9 +114,9 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
                 if(null != province) {
                     List<CityResp.City> citieDatas = province.getChildCity();
                     LogUtil.w(TAG, "Cities-->>" + citieDatas);
-                    //这里每次的重新new一个CityAdapter并重新set，否则数据不出现
-                    mCityAdatper = new CityAdapter(MainActivity.this, citieDatas);
-                    mCityView.setViewAdapter(mCityAdatper);
+                    mCityAdatper.clear();
+                    mCityAdatper.addAll(citieDatas);
+                    mCityAdatper.notifyDataSetChanged();
                     mCityView.setCurrentItem(2);
                 }
             }
@@ -125,9 +131,9 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
                     if(null != province) {
                         List<CityResp.City> citieDatas = province.getChildCity();
                         LogUtil.w(TAG, "Cities-->>" + citieDatas);
-                        //这里每次的重新new一个CityAdapter并重新set，否则数据不出现
-                        mCityAdatper = new CityAdapter(MainActivity.this, citieDatas);
-                        mCityView.setViewAdapter(mCityAdatper);
+                        mCityAdatper.clear();
+                        mCityAdatper.addAll(citieDatas);
+                        mCityAdatper.notifyDataSetChanged();
                         mCityView.setCurrentItem(2);
                     }
                 }
@@ -198,13 +204,14 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
                         return;
                     }
                     LogUtil.i(TAG, resp);
-                    mProvinceAdapter = new CityAdapter(MainActivity.this, resp.getPageList());
-                    mProviceView.setViewAdapter(mProvinceAdapter);
+                        mProvinceAdapter.clear();
+                        mProvinceAdapter.addAll(resp.getPageList());
                     mProviceView.setCurrentItem(2);
                     CityResp.City provice = mProvinceAdapter.getItem(2);
                     if(null != provice) {
-                        mCityAdatper = new CityAdapter(MainActivity.this, provice.getChildCity());
-                        mCityView.setViewAdapter(mCityAdatper);
+                        mCityAdatper.clear();
+                        mCityAdatper.addAll(provice.getChildCity());
+                        mCityAdatper.notifyDataSetChanged();
                         mCityView.setCurrentItem(2);
                     }
                     cancelProgressDialog();
@@ -273,6 +280,10 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         private Context mmContext;
         private List<CityResp.City> mmCityDatas = new ArrayList<CityResp.City>();
 
+        public CityAdapter(Context context) {
+            this.mmContext = context;
+        }
+
         public CityAdapter(Context context, Collection<CityResp.City> cityDatas) {
             this.mmContext = context;
             if(null != cityDatas && !cityDatas.isEmpty()) {
@@ -285,6 +296,14 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
                 return mmCityDatas.isEmpty() ? null : mmCityDatas.get(positon);
             }
             return null;
+        }
+
+        public void clear() {
+            mmCityDatas.clear();
+        }
+
+        public void addAll(Collection<CityResp.City> datas) {
+            mmCityDatas.addAll(datas);
         }
 
         @Override

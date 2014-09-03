@@ -19,5 +19,5 @@
 
 <resources>
     <color name="wheel_bg_color">#FFF2F2F2</color>
-    <color name="wheel_selected_color">#AAFF0000</color>
+    <color name="wheel_selected_color">#FFFF0000</color>
 </resources>
